@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  bash:
+    build: .
+    image: dannyben/ruby-php
+    volumes:
+    - ./app:/app
